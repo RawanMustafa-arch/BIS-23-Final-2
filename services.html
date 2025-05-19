@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glow Up Guide - Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Glow Up Guide</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="services">
+      <h1>Services & Order Form</h1>
+      <form id="order-form">
+        <label for="plan">Choose a Glow Up Plan:</label>
+        <select id="plan" name="plan" required>
+          <option value="" disabled selected>Select a plan</option>
+          <option value="basic" data-price="20">Basic Plan - $20</option>
+          <option value="standard" data-price="40">Standard Plan - $40</option>
+          <option value="premium" data-price="60">Premium Plan - $60</option>
+        </select>
+
+        <label for="sessions">Number of Sessions:</label>
+        <input type="number" id="sessions" name="sessions" min="1" value="1" required />
+
+        <p>Total Price: $<span id="total-price">0</span></p>
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Glow Up Guide. All rights reserved.</p>
+  </footer>
+</body>
+</html>

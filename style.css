@@ -1,0 +1,186 @@
+
+ /* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff0f5;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #ffc0cb;
+  color: #6a1b4d;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #e6a6b5;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #6a1b4d;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #d81b60;
+}
+
+/* Main Content */
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #ffe6ec;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #b23a48;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #5c5c5c;
+}
+
+/* Gallery Page */
+.gallery h1 {
+  color: #b23a48;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.slider {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.slider img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffb6c1;
+  color: #6a1b4d;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #f88da3;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Services Page */
+form {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin: 15px 0 5px;
+  color: #6a1b4d;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #ff99ac;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e68ca3;
+}
+
+/* About Page */
+.about {
+  background-color: #ffe6ec;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about h2 {
+  color: #b23a48;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #5c5c5c;
+}
+
+/* Footer */
+footer {
+  background-color: #ffc0cb;
+  color: #6a1b4d;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 3px solid #e6a6b5;
+}
